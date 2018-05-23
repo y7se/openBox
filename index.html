@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery3.js"></script>
+    <title>组团开宝箱</title>
+</head>
+<body style="background: #6314D1;">
+    <div class="wrapper">
+        <div class="container">
+            <div class="loadArea">
+                <div class="zh loadPic"></div>
+            </div>
+            <p class="txt">加载中...</p>
+            <div class="zh commBtnBig openBox">开宝箱</div>
+            <div class="btns">
+                <div class="zh prizeRec fl"></div>
+                <div class="zh ruleBtn fr"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 遮罩层 -->
+    <div class="layout"></div>
+
+    <!-- 活动规则 -->
+    <div class="rulePop pop_over">
+        <div class="iconfont closeBtn"></div>
+        <div class="zh titBg">活 动 规 则</div>
+        <div class="textCon">
+            <p class="txtr">1.活动期间，您须持续订阅并绑定“中国移动10086”微信公众号，或持续下载并登陆10086APP，否则奖品无法发放；</p>
+            <p class="txtr">2.参加者每人最多可领10个宝箱，每人只能加入一次他人组建的团。组建新团和加入他人团的行为不可撤销。每团凑满3人即为满员团，团长可获得300M流量包，团员可获得100M流量包；</p>
+            <p class="txtr">3.参团的用户需满足活动开始前还未订阅“中国移动10086”微信公众号的新用户，即在活动开始后6月5日0:00尚未订阅公众号的用户，活动期间取消并重新订阅的除外。</p>
+            <p class="txtr">4.所有流量奖品均需要到“奖品记录”页进行激活，方可成功领取，后期才能正确充值到您绑定的手机</p>
+            <p class="txtr">4.所有流量奖品均需要到“奖品记录”页进行激活，方可成功领取，后期才能正确充值到您绑定的手机</p>
+        </div>
+        <div class="confrimBtn zh commBtnBig">确定</div>
+    </div>
+
+    <script>
+        var $loadPic = $('.loadPic');
+
+        $loadPic.animate({'width':'479px'},4000,function () {
+            $('.loadArea,.txt').hide();
+            $('.openBox').css('visibility', 'inherit');
+        });
+        
+        // 开宝箱
+        $('.openBox').click(function(){
+            window.location.href = 'openBox.html';
+        })
+        
+        //关闭按钮
+        $('.closeBtn,.confrimBtn').click(function(){
+            $('.layout').hide();
+            $(this).parent().hide();
+        })
+        
+        // 活动规则 按钮
+        $('.ruleBtn').click(function(){
+            $('.layout').show();
+            $('.rulePop').show();
+        })
+        
+        //奖品记录 按钮
+        $('.prizeRec').click(function(){
+            window.location.href = 'exChange.html';
+        })
+    </script>
+</body>
+</html>

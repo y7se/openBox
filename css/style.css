@@ -1,0 +1,268 @@
+.zh {background-image: url("../images/zh.png"); display: block;}
+.actBtnAct {background-position: -0px -605px; width: 174px; height: 84px; }/*激活 激活状态*/
+.actBtnDis {background-position: -0px -495px; width: 174px; height: 84px; }/*已激活 禁用状态*/
+.titBg {background-position: -0px -715px; width: 416px; height: 74px; font-size: 36px;color: rgb(255, 255, 255);font-weight: bold;line-height: 74px;text-align: center;margin: 0 auto;}/*标题 背景*/
+.loadPic {background-position: -0px -830px; width: 0; height: 18px; }/*进度条*/
+.rankBg {background-position: -285px -330px; width: 294px; height: 40px;display: inline-block;margin-top: 19px;}/*排名背景*/
+.ruleBtn {background-position: -0px -410px; width: 190px; height: 60px; }/*活动规则*/
+.prizeRec {background-position: -0px -320px; width: 190px; height: 60px; }/*奖品记录*/
+.commBtnBig {background-position: -0px -150px; width: 454px; height: 136px;font-size: 55px;color: rgb(181, 93, 28);font-weight: bold;text-shadow: 0px 1px 0px rgba(255, 247, 198, 0.58);text-align: center;line-height: 118px;}/*大通用按钮*/
+.commBtnSml {background-position: -0px -0px; width: 285px; height: 123px; font-size: 42px;color: rgb(181, 93, 28);font-weight: bold;text-shadow: 0px 1px 0px rgba(255, 247, 198, 0.58);text-align: center;line-height: 109px;}/*小通用按钮*/
+.fl{float: left;}
+.fr{float: right;}
+
+/* index.html */
+.container{width: 648px;height: 270px;position: absolute;bottom: 60px;left: 50%;margin-left: -324px;text-align: center;}
+.container .loadArea{background-color: rgb(75, 43, 121);box-shadow: inset 0px 0px 24px 0px rgba(2, 2, 2, 0.52);width: 480px;height: 20px;border-radius: 30px;position: absolute;top: 70px;left: 50%;margin-left: -240px;}
+.container .btns{width:100%;position: absolute;bottom: 0;}
+.container .txt{font-size: 22px;font-family: "Microsoft YaHei";color: rgb(217, 172, 255);line-height: 11;}
+.container .openBox{position: absolute;top: 18px;left: 50%;margin-left: -227px;visibility: hidden;}
+
+/* openBox.html */
+.openBoxWrap .prizeBox,.invitWrap .prizeBox{width: 414px;height: 382px;background-image: url("../images/boxpic.png");background-repeat:no-repeat;position: absolute;top: 81px;left: 186px;}
+.boxCon{width: 648px;height: 590px;position: absolute;bottom: 60px;left: 50%;margin-left: -324px;}
+.boxCon .clickOpen{margin: 0 auto;}
+.boxCon .userCon{border-radius: 30px;background-color: rgba(99, 21, 208, 0.329);box-shadow: inset 0px 0px 24px 0px rgba(58, 14, 124, 0.3);width: 640px;height: 328px;text-align: center;margin: 30px auto;padding: 22px 30px;}
+.boxCon .userCon .descTxt{font-size: 22px;color: rgb(217, 172, 255);line-height: 1.455;}
+.boxCon .userCon .descTxt span{color: #FFF239;font-weight: bold;}
+.boxCon .userCon .userList{width: 613px;height: 166px;margin: 13px auto 0;}
+.userList .users{float: left;margin: 0 19px;}
+.userList .addUser .add{width:143px;height:143px;border: 3px solid #FEF976;border-radius: 50%;margin: 0 auto 4px;background-color: #7416D5;line-height: 143px;}
+.userList .users img{width:137px;height:137px;border: 3px solid #FEF976;border-radius: 50%;}
+.userList .users .userName{width:156px;font-size: 26px;color: #FDF36C;line-height: 40px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.userCon .desc2{font-size: 18px;color:#E8BEFF;line-height: 38px;}
+
+/* beInvited.html */
+.invitWrap .btns{overflow: hidden;}
+
+/* exChange.html */
+.exCon{border-radius: 30px;background-color: rgb(255, 255, 255);width: 698px;min-height: 1535px;padding:30px 18px;}
+.exCon .allPrize{overflow: hidden;}
+.exCon .prizes{background-color: rgb(222, 88, 99);box-shadow: 0px 5px 8px 0px rgba(255, 151, 160, 0.75);width: 662px;height: 146px;border-radius: 90px;margin: 40px auto;padding:33px 37px;}
+.exCon .prizes .prizeName{font-size: 34px;color: #fff;font-weight: bold;}
+.exCon .prizes .prizeName span{display: inline-block;color: #FFF83D;margin-right: 6px;}
+.exCon .prizes .getTime{font-size: 22px;color: #fff;}
+.exCon .noticeTxt{overflow: hidden;margin-left: 28px;}
+.exCon .noticeTxt .title{font-size: 24px;color: #8E8E8E;font-weight: bold;line-height: 37px;}
+.exCon .noticeTxt .txt{font-size: 22px;line-height: 35px;color: #8E8E8E;}
+.exCon .openingCon{margin-top: 60px;}
+.openingCon .recItem{overflow: hidden;margin: 26px 0;}
+.openingCon .recItem .num{display: block;width: 72px;height: 42px;text-align: center;color: #fff;font-size: 24px;font-weight: bold;line-height: 42px;}
+.openingCon .recItem .time{display: block;width: 200px;height: 42px;text-align: left;color: #8E8E8E;font-size:18px;font-weight: bold;line-height: 42px;}
+.openingCon .recItem .userList{width: 340px;height: 80px;}
+.openingCon .recItem .userList .users{float: left;margin: 0 11px;width: 91px;}
+.recItem .userList .users .userHeadImg{width:48px;height:48px;border-radius: 50%;border: 0;margin: 0 auto;display: block;}
+.recItem .users .userName{width:99px;font-size: 19px;color: #8E8E8E;line-height: 40px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;text-align: center;}
+
+/* busy.html */
+.busyWrap .resetBtn{border-width: 2px;border-color: rgb(60, 159, 214);border-style: solid;width: 258px;height: 78px;border-radius: 70px;text-align: center;line-height: 78px;color: #3C9FD6;font-size: 34px;font-weight: bold;position: absolute;top: 877px;left: 50%;margin-left: -129px;}
+
+/* 活动规则 */
+.rulePop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 912px;position: absolute;margin-left: -305px;margin-top: -456px;}
+.rulePop .titBg{margin-top: 40px;}
+.rulePop .textCon{width: 538px;height: 536px;margin: 0 auto 30px;overflow-y: auto;margin-top: 43px;}
+.rulePop .textCon .txtr{font-size: 26px;line-height: 44px;color: #818181;}
+.rulePop .confrimBtn{margin: 0 auto;height: 120px;}
+
+/* 已抢完 弹窗 */
+.noPrizePop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 63px 0 0 0;text-align: center;}
+.noPrizePop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 45px;}
+.noPrizePop .confrimBtn{margin: 35px auto 0;height: 120px;}
+
+/* 激活流量 弹窗 */
+.activeDataPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 43px 0 0 0;text-align: center;}
+.activeDataPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 95px;}
+.activeDataPop .txt1{font-size: 22px;color: #8E8E8E;line-height: 0px;}
+.activeDataPop .confrimBtn{margin: 55px auto 0;height: 120px;}
+
+/* 成功帮好友开启宝箱 弹窗 */
+.succHelpFriPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 400px;margin-left: -305px;margin-top: -176px;padding: 63px 37px 0;text-align: center;}
+.succHelpFriPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 38px;}
+.succHelpFriPop .txt1{font-size: 22px;color: #8E8E8E;line-height: 50px;}
+.succHelpFriPop .desc{font-size: 22px;line-height: 68px;color: #818181;}
+.succHelpFriPop .desc span{color: #EB606C;}
+.succHelpFriPop .confrimBtn{margin: 25px auto 0;height: 120px;}
+
+/* 成功帮好友开启宝箱2 弹窗 */
+.succHelpFriPop2{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 400px;margin-left: -305px;margin-top: -176px;padding: 63px 37px 0;text-align: center;}
+.succHelpFriPop2 .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 38px;}
+.succHelpFriPop2 .txt1{font-size: 22px;color: #8E8E8E;line-height: 50px;}
+.succHelpFriPop2 .desc{font-size: 22px;line-height: 68px;color: #818181;}
+.succHelpFriPop2 .desc span{color: #EB606C;}
+.succHelpFriPop2 .confrimBtn{margin: 25px auto 0;height: 120px;}
+
+/* 未下载10086APP 弹窗 */
+.downAppPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 63px 0 0 0;text-align: center;}
+.downAppPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 95px;}
+.downAppPop .downApp{margin: 35px auto 0;height: 120px;font-size: 46px;}
+
+/* 已下载10086APP 弹窗 */
+.openAppPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 63px 0 0 0;text-align: center;}
+.openAppPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 95px;}
+.openAppPop .openApp{margin: 35px auto 0;height: 120px;font-size: 46px;}
+
+/* 绑定手机号 弹窗 */
+.bindPhoneNumPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 63px 0 0 0;text-align: center;}
+.bindPhoneNumPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;line-height: 95px;}
+.bindPhoneNumPop .bindPn{margin: 35px auto 0;height: 120px;font-size: 46px;}
+
+/* 帮TA开启 弹窗 */
+.needHelpFriPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 352px;margin-left: -305px;margin-top: -176px;padding: 63px 50px 0;text-align: center;}
+.needHelpFriPop .txt{font-size: 30px;color: rgb(235, 96, 108);font-weight: bold;}
+.needHelpFriPop .desc{font-size: 24px;color: #818181;}
+.needHelpFriPop .desc span{color: rgb(235, 96, 108);}
+.needHelpFriPop .helpBtn{margin: 35px auto 0;height: 120px;font-size: 46px;}
+
+/* 没有资格 */
+.notQualified{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 513px;margin-left: -305px;margin-top: -276px;padding: 51px 17px 0;text-align: center;}
+.notQualified .title{font-size: 33px;color: #EB606C;line-height: 60px;}
+.notQualified .txt{font-size: 24px;line-height: 36px;color: #818181;}
+.notQualified .txt span{color: #EB606C;font-weight: bold;}
+.notQualified .title2{font-size: 22px;color: #EB606C;font-weight: bold;margin-top: 30px;}
+.notQualified .title2-2{color: #EB606C;font-size: 21px;line-height: 35px;}
+.notQualified .getBox{margin: 35px auto 0;height: 120px;}
+
+/* 关注公众号 弹窗 */
+.weChatAttenPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 533px;margin-left: -305px;margin-top: -276px;padding: 66px 0;text-align: center;}
+.weChatAttenPop .title{font-size: 36px;color: #EB606C;font-weight: bold;}
+.weChatAttenPop .qrCodeImg{border: 2px solid #F4AAB1;padding: 15px;margin: 48px 0;}
+.weChatAttenPop .desc{font-size: 23px;line-height: 35px;color: #818181;}
+.weChatAttenPop .desc span{font-weight: bold;color: #EB606C;}
+
+/* 活动结束 弹窗 */
+.eventEndPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 533px;margin-left: -305px;margin-top: -276px;padding: 66px 0;text-align: center;}
+
+/* 前往10086激活奖品 弹窗 */
+.activePrizePop{display:none;border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 372px;margin-left: -305px;margin-top: -276px;padding: 66px 0;text-align: center;}
+.activePrizePop .title{font-size: 28px;color: #EB606C;font-weight: bold;line-height: 47px;}
+.activePrizePop .txt{font-size: 24px;color: #818181;line-height: 46px;}
+.activePrizePop .gotoAppBtn{margin: 40px auto 0;height: 120px;font-size: 46px;}
+
+/* 引导开宝箱 弹窗 */
+.guideToOpenPop{border-radius: 20px;background-color: rgb(255, 255, 255);width: 610px;height: 462px;margin-left: -305px;margin-top: -276px;padding: 66px 42px;text-align: center;}
+.guideToOpenPop .txt{font-size: 26px;color: #818181;margin-bottom: 38px;}
+.guideToOpenPop .txt span{color: #EB606C;font-weight: bold;}
+.guideToOpenPop .prizeRecBtn{margin: 80px auto 0;height: 120px;}
+
+/* 分享 弹窗 */
+/* .shareEventPop{display:block;position: absolute;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.6);position: fixed;top: 0;left: 0;right: 0;bottom: 0;} */
+
+
+/* 宝箱动画 */
+.animation {
+    width: 414px;
+    height: 382px;
+    background-image: url("../images/sprites.png");
+    background-size: 2070px 382px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-ani;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+    position: absolute;
+    top: 81px;
+    left: 186px;
+}
+
+.animation2 {
+    width: 414px;
+    height: 382px;
+    background-image: url("../images/sprites2.png");
+    background-size: 2070px 382px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-100M;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+    position: absolute;
+    top: 81px;
+    left: 186px;
+}
+@keyframes keyframes-100M {
+    0% {
+        width: 414px;
+        height: 382px;
+        background-image: url("../images/sprites2.png");
+        background-size: 2070px 382px;
+    }
+    20.00% {
+        background-position: -414px 0px;
+    }
+    40.00% {
+        background-position: -828px 0px;
+    }
+    60.00% {
+        background-position: -1242px 0px;
+    }
+    80.00%,
+    100% {
+        background-position: -1656px 0px;
+    }
+}
+@-webkit-keyframes keyframes-100M {
+    0% {
+        width: 414px;
+        height: 382px;
+        background-image: url("../images/sprites2.png");
+        background-size: 2070px 382px;
+    }
+    20.00% {
+        background-position: -414px 0px;
+    }
+    40.00% {
+        background-position: -828px 0px;
+    }
+    60.00% {
+        background-position: -1242px 0px;
+    }
+    80.00%,
+    100% {
+        background-position: -1656px 0px;
+    }
+}
+
+@keyframes keyframes-ani {
+    0% {
+        width: 414px;
+        height: 382px;
+        background-image: url("../images/sprites.png");
+        background-size: 2070px 382px;
+    }
+    20.00% {
+        background-position: -414px 0px;
+    }
+    40.00% {
+        background-position: -828px 0px;
+    }
+    60.00% {
+        background-position: -1242px 0px;
+    }
+    80.00%,
+    100% {
+        background-position: -1656px 0px;
+    }
+}
+
+
+.toast {
+    display: none;
+    width: 470px;
+    height: 85px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    color: #fff;
+    line-height: 34px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: -235px;
+    padding: 10px;
+}
